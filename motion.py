@@ -17,10 +17,10 @@ def main():
   while True:
     value=GPIO.input(motion_pin)
     if value!=0:                             #to read the value of a GPIO pin
-      time.sleep(1)        #delay 2ms
+      time.sleep(2)        #delay 2ms
       print "on"                           #print information
     else:
-      time.sleep(1)       #delay 2ms
+      time.sleep(2)       #delay 2ms
       print "off"                         #print information
 
 init()
